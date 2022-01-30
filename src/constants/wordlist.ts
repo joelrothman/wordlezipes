@@ -28,7 +28,7 @@ export const WORDS = [
   'abase',
   'marry',
   'react',
-  'batty',
+  'saasy',
   'pride',
   'floss',
   'helix',
