@@ -9,7 +9,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        This is an open source clone of the game Wordle -{' '}
+        This is an SF themed clone of Wordle, made by Joel Rothman. It's based on  an open source clone of the game Wordle -{' '}
         <a
           href="https://github.com/hannahcode/wordle"
           className="underline font-bold"
@@ -21,7 +21,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
           href="https://www.powerlanguage.co.uk/wordle/"
           className="underline font-bold"
         >
-          play the original here
+          play the original here.
         </a>
       </p>
     </BaseModal>
