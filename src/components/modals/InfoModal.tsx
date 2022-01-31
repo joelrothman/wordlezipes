@@ -11,7 +11,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Guess the WORDLE in 6 tries. After each guess, the color of the tiles
-        will change to show how close your guess was to the word.
+        will change to show how close your guess was to the word. But, you really shouldn't get the answer wrong. Because it's literally always Zipes. 
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
