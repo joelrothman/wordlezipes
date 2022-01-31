@@ -1,5 +1,5 @@
 export const VALIDGUESSES = [
-  'aahed',
+  'zipes',
   'aalii',
   'aargh',
   'aarti',
