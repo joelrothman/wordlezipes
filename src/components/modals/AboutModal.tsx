@@ -9,7 +9,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        This is an SF themed clone of Wordle, made by Joel Rothman. It's based on  an open source clone of the game Wordle -{' '}
+        This is like Wordle, but the answer is always Zipes. It's based on  an open source clone of the game Wordle -{' '}
         <a
           href="https://github.com/hannahcode/wordle"
           className="underline font-bold"
